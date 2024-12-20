@@ -1,5 +1,6 @@
-FastAPI Food Ordering System
-Overview
+###FastAPI Food Ordering System
+
+###Overview
 This project implements a food ordering system where users can place orders from a menu, and staff can manage these orders. Built using FastAPI, SQLAlchemy, and SQLite, it provides API endpoints for managing users, menu items, and customer orders.
 Features
 • User Management: Create, read, update, and delete users.
@@ -10,7 +11,7 @@ Features
   - Each CustomerOrder is tied to a MenuItem 
 -  User could order multiple MenuItems, and at the same time, a MenuItem could be ordered by multiple Users
 
-Models
+##Models
 1. User:
    - id, name, email, phone, created_at
    - Related to CustomerOrder (one-to-many).
@@ -22,7 +23,7 @@ Models
 3. CustomerOrder:
    - id, menu_item_id, user_id, quantity, price, table_number, created_at
    - menu_item and user are foreign keys, linking to the MenuItem and User tables.
-Setup
+##Setup
 1. Install dependencies:
    pip install fastapi uvicorn sqlalchemy
 
