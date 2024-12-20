@@ -1,6 +1,6 @@
-###FastAPI Food Ordering System
+##FastAPI Food Ordering System
 
-###Overview
+##Overview
 This project implements a food ordering system where users can place orders from a menu, and staff can manage these orders. Built using FastAPI, SQLAlchemy, and SQLite, it provides API endpoints for managing users, menu items, and customer orders.
 Features
 • User Management: Create, read, update, and delete users.
