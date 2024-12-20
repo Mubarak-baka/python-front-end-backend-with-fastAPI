@@ -1,27 +1,34 @@
-import { useEffect,useState } from "react"
-import UserDetails from "../Component/Userdetails"
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "../Component/Navbar";
+import UsersPage from "../Component/UserPage";
+import MenuItemsPage from "../Component/MenuItemsPage";
+import OrdersPage from "../Component/OrdersPage";
 
+
+import UserOrderPage from "../Component/UserOrderPage"; // Import the new page
+import MenuItemOrdersPage from "../Component/MenuItemOrdersPage";
 function App() {
-  const [user, setUser] = useState([])
-    useEffect(() => { 
-      fetch('http://127.0.0.1:8000/users',{
-        method: 'GET',
-       })
-       .then(response => response.json())
-       .then(result=> setUser(result))
-       
-       .catch((error) => console.log('error',error))
-    },[])
-
   return (
-    <>
-   <ul>{user.map((user)=>(
-      <UserDetails key={user.id} {...user} /> 
-   ))}
-   </ul>
-   
-   </>
-  )
+    <Router>
+      <Navbar />
+      
+      <div className="container mt-4">
+        <Routes>
+        <Route path="/" element={<UsersPage />} />
+          <Route path="/users" element={<UsersPage />} />
+          <Route path="/OrdersPage" element={<OrdersPage />} />
+          <Route path="/menu-items" element={<MenuItemsPage />} />
+          <Route path="/UserorderPage" element={<UserOrderPage />} />
+          
+          <Route path="/users/:userId/orders" element={<UserOrderPage />} /> 
+          <Route path="/menu-items/:menuItemId/orders" element={<MenuItemOrdersPage />} />
+
+
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;
