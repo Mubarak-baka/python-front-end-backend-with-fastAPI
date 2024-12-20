@@ -43,11 +43,11 @@
         },
         "certifi": {
             "hashes": [
-                "sha256:922820b53db7a7257ffbda3f597266d435245903d80737e34f8a45ff3e3230d8",
-                "sha256:bec941d2aa8195e248a60b31ff9f0558284cf01a52591ceda73ea9afffd69fd9"
+                "sha256:1275f7a45be9464efc1173084eaa30f866fe2e47d389406136d332ed4967ec56",
+                "sha256:b650d30f370c2b724812bee08008be0c4163b163ddaec3f2546c1caf65f191db"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==2024.8.30"
+            "version": "==2024.12.14"
         },
         "click": {
             "hashes": [
@@ -97,11 +97,11 @@
                 "standard"
             ],
             "hashes": [
-                "sha256:2835a8f0c44b68e464d5cafe5ec205265f02dc1ad1d640db33a994ba3338003b",
-                "sha256:43288efee46338fae8902f9bf4559aed3aed639f9516f5d394a7ff19edcc8faf"
+                "sha256:02b3b65956f526412515907a0793c9094abd4bfb5457b389f645b0ea6ba3605e",
+                "sha256:d549368ff584b2804336c61f192d86ddea080c11255f375959627911944804f4"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==0.0.6"
+            "version": "==0.0.7"
         },
         "greenlet": {
             "hashes": [
@@ -509,11 +509,11 @@
         },
         "python-multipart": {
             "hashes": [
-                "sha256:905502ef39050557b7a6af411f454bc19526529ca46ae6831508438890ce12cc",
-                "sha256:f8d5b0b9c618575bf9df01c684ded1d94a338839bdd8223838afacfb4bb2082d"
+                "sha256:8a62d3a8335e06589fe01f2a3e178cdcc632f3fbe0d492ad9ee0ec35aab1f104",
+                "sha256:8dd0cab45b8e23064ae09147625994d090fa46f5b0d1e13af944c331a7fa9d13"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==0.0.19"
+            "version": "==0.0.20"
         },
         "pyyaml": {
             "hashes": [
@@ -699,11 +699,11 @@
                 "standard"
             ],
             "hashes": [
-                "sha256:82ad92fd58da0d12af7482ecdb5f2470a04c9c9a53ced65b9bbb4a205377602e",
-                "sha256:ee9519c246a72b1c084cea8d3b44ed6026e78a4a309cbedae9c37e4cb9fbb175"
+                "sha256:2c30de4aeea83661a520abab179b24084a0019c0c1bbe137e5409f741cbde5f8",
+                "sha256:3577119f82b7091cf4d3d4177bfda0bae4723ed92ab1439e8d779de880c9cc59"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==0.32.1"
+            "version": "==0.33.0"
         },
         "uvloop": {
             "hashes": [
