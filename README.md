@@ -1,17 +1,20 @@
-##FastAPI Food Ordering System
+## Hotel  Food Ordering System
 
-##Overview
+
+
+## Overview
+
 This project implements a food ordering system where users can place orders from a menu, and staff can manage these orders. Built using FastAPI, SQLAlchemy, and SQLite, it provides API endpoints for managing users, menu items, and customer orders.
 Features
 • User Management: Create, read, update, and delete users.
 • Menu Management: Add, update, and delete menu items.
 • Order Management: Users can create orders, and staff can view or manage them.
-• Relationships:
+## RELASHIONSHIPS
   - Each User can place multiple CustomerOrders.
   - Each CustomerOrder is tied to a MenuItem 
 -  User could order multiple MenuItems, and at the same time, a MenuItem could be ordered by multiple Users
 
-##Models
+## Models
 1. User:
    - id, name, email, phone, created_at
    - Related to CustomerOrder (one-to-many).
@@ -23,14 +26,26 @@ Features
 3. CustomerOrder:
    - id, menu_item_id, user_id, quantity, price, table_number, created_at
    - menu_item and user are foreign keys, linking to the MenuItem and User tables.
-##Setup
+ ## SETUP
 1. Install dependencies:
    pip install fastapi uvicorn sqlalchemy
+   pip install axios
+   React Toast container
+   React router dom
+
 
 2. Run the app:
    uvicorn main:app --reload
+   npm run dev for the front end 
 
 3. Access the API at http://127.0.0.1:8000.
+   Access the Frontend in react http://localhost:5173
+
+
+
+## Slide link
+[https://docs.google.com/presentation/d/1HrKfn_IBLRnA9RLuWHJbtgqn-87hNyyPRrFm1h5Kfoo/edit#slide=id.p]
+
 API Endpoints
 ### Users
 - **GET /users/{user_id}**: Get user by ID.
@@ -53,7 +68,8 @@ API Endpoints
 - **PATCH /orders/{order_id}**: Update an order.
 - **DELETE /orders/{order_id}**: Delete an order.
 - **GET /users/{user_id}/orders**: Get orders placed by a user.
-Database
+##Database
 This project uses SQLite for the database. The database file is app.db.
-License
+
+##License
 This project is licensed under the MIT License.
