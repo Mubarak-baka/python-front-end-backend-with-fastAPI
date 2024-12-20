@@ -46,6 +46,9 @@ Features
 ## Slide link
 [https://docs.google.com/presentation/d/1HrKfn_IBLRnA9RLuWHJbtgqn-87hNyyPRrFm1h5Kfoo/edit#slide=id.p]
 
+## Demo
+[https://drive.google.com/file/d/1M3eO1L148sc1TANSEevYSIdl0JW2dAPe/view]
+
 API Endpoints
 ### Users
 - **GET /users/{user_id}**: Get user by ID.
