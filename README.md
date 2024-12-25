@@ -44,7 +44,7 @@ Features
 
 
 ## Slide link
-[https://docs.google.com/presentation/d/1HrKfn_IBLRnA9RLuWHJbtgqn-87hNyyPRrFm1h5Kfoo/edit#slide=id.p]
+[https://docs.google.com/presentation/d/1HrKfn_IBLRnA9RLuWHJbtgqn-87hNyyPRrFm1h5Kfoo/edit#slide=id.g2a44d605f24_0_229]
 
 ## Demo
 [https://drive.google.com/file/d/1M3eO1L148sc1TANSEevYSIdl0JW2dAPe/view]
@@ -74,5 +74,17 @@ API Endpoints
 ##Database
 This project uses SQLite for the database. The database file is app.db.
 
-##License
+## Technologies Used
+Frontend: HTML, CSS, JavaScript, React
+Backend: FastAPI (Python)
+Database: SQLite (SQLAlchemy ORM)
+Deployment: Vercel (Frontend Hosting), Heroku (Backend Hosting)
+
+## Future Enhancment
+User Authentication: Integrate secure JWT-based user authentication to ensure proper role management and security.
+Payment Integration: Allow guests to securely pay for their orders via integrated payment gateways.
+Order Analytics: Add a feature for staff to analyze order data for insights on customer preferences and order trends.
+Scalability: Transition to a more scalable database (e.g., PostgreSQL) as the app grows to handle more data and users.
+
+## License
 This project is licensed under the MIT License.
