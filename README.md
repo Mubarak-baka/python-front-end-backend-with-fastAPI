@@ -5,13 +5,13 @@
 ## Overview
 
 This project implements a food ordering system where users can place orders from a menu, and staff can manage these orders. Built using FastAPI, SQLAlchemy, and SQLite, it provides API endpoints for managing users, menu items, and customer orders.
-Features
-• User Management: Create, read, update, and delete users.
-• Menu Management: Add, update, and delete menu items.
+## Features
+• User Management: Create, read, update, and delete users,view What a particular user ordered . 
+• Menu Management: Add, update, and delete menu items, view the number of customers who ordered a particular menu item
 • Order Management: Users can create orders, and staff can view or manage them.
 ## RELASHIONSHIPS
   - Each User can place multiple CustomerOrders.
-  - Each CustomerOrder is tied to a MenuItem 
+  - Each CustomerOrder is tied to a MenuItem
 -  User could order multiple MenuItems, and at the same time, a MenuItem could be ordered by multiple Users
 
 ## Models
